@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.link-row{
+  width: 100%;
+  height: 120px;
+  display: grid;
+  grid-template: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.navlinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks li{
+  list-style: none;
+  text-decoration: none;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+
+.navlinks li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.links{
+  margin: 2rem;
+}
+
+.add{
+  background-color: orange;
+  width: 100px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.input{
+  width: 100%;
+  height: 70px;
+  text-indent: 20px;
+  border: 1px solid orange;
+  margin-bottom: 20px;
+}
+
+.movieList{
+  margin-top: 3rem;
+}
+
+
+.movieContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.movie_title{
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.movie_release{
+  color: orange;
+  font-size: 12px;
+}
+
+.add-to-watchList{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  border: none;
+  background-color: orange;
+  font-weight: 600;
+  border-radius: 15px;
+  font-size: 10px;
+}
+
+.myWatchList{
+  color: orange;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.hr{
+  color: orange;
+}
+
+.clickadd{
+  color: rgb(253, 202, 108);
+  font-size: 10px;
+}
+
+
+@media screen and (max-width: 375px) {
+  .navlinks li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: -20px;
+    overflow-x: hidden;
+  }
+
+  .posterImg{
+    margin-left: -32px;
+  }
+  
+}
+
